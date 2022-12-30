@@ -1,0 +1,78 @@
+/* Global styles ============= */
+
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    font-family: 'Hind-Regular', 'Helvetica', 'Arial', 'sans-serif';
+}
+
+/* --- Nav bar --- */
+
+
+/* --- Jumbotron / hero --- */
+
+.jumbotron {
+    text-align: center;
+    background-image: ;
+}
+
+/* --- Grid section ---*/
+
+
+.mainContainer {
+    width: 80%;
+    margin: auto;
+    max-width: 1200px;
+}
+
+/* .mainContainer * {
+    border: red solid 1px;
+} */
+
+.aside {
+    border-right: rgba(255, 148, 81) solid 2px;
+    text-align: left;
+    padding-right: 10px;
+}
+
+/* --- About me ---*/
+
+
+
+/* --- My work ---*/
+
+#workAside {}
+
+#workBlocks {}
+
+#cardTitle {
+    background-color: rgba(255, 148, 81, 0.55);
+    color: white;
+}
+
+
+/* --- Contact me ---*/
+
+
+
+/* -- Footer --*/
+
+footer {
+    margin-top: 50px;
+    text-align: center;
+    background-color: black;
+    color: rgba(255, 148, 81);
+    height: 100px;
+}
+
+footer p {
+    position: relative;
+    padding: 0px;
+    margin: 0px;
+    top: 30%;
+}
