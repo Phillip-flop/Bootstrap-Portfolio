@@ -38,6 +38,10 @@ body {
     background-image: url(/assets/images/li-pic-modified.png);
 }
 
+.navbar-text img {
+    height: 50px;
+}
+
 
 /* --- Jumbotron / hero --- */
 
@@ -57,10 +61,6 @@ body {
 
 
 /* --- Grid section ---*/
-
-/* #mainWrapper * {
-    border: red solid 1px;
-} */
 
 
 .sectionContainer {
@@ -151,7 +151,3 @@ footer p {
     }
 
 }
-
-/* -- Tablet --  */
-
-@media only screen and (max-width: 768px) {}
