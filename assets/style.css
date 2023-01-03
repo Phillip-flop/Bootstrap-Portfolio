@@ -13,19 +13,41 @@ body {
     padding: 0px;
 }
 
+.wrapper {
+    width: 80%;
+    margin: auto;
+    max-width: 1200px;
+}
 
 /* --- Nav bar --- */
 
-#navIcon {}
+.navbar {
+    background-color: white !important;
+}
+
+.nav-item a {
+    color: rgb(251, 80, 80) !important;
+}
+
+.nav-item a:hover {
+    color: rgb(251, 80, 80) !important;
+    font-size: 1.2rem;
+}
+
+#navIcon {
+    background-image: url(/assets/images/li-pic-modified.png);
+}
+
 
 /* --- Jumbotron / hero --- */
 
 .jumbotron {
-    background-image: url(./images/hero-image.jpg);
+    background-image: url(./images/hero-image-3.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     text-align: center;
+    color: white;
 }
 
 .jumbotron h1 {
@@ -36,28 +58,33 @@ body {
 
 /* --- Grid section ---*/
 
-#mainWrapper {
-    width: 80%;
-    margin: auto;
-    max-width: 1200px;
-}
+/* #mainWrapper * {
+    border: red solid 1px;
+} */
+
 
 .sectionContainer {
     margin-bottom: 20px;
 }
 
-
-/* #mainWrapper * {
-    border: red solid 1px;
-} */
-
 .aside {
-    border-right: rgb(255, 140, 198) solid 2px;
+    border-right: rgb(251, 80, 80) solid 2px;
     text-align: left;
     padding-right: 10px;
     width: 100px;
+    color: rgb(251, 80, 80);
 }
 
+.btn {
+    background-color: rgb(251, 80, 80);
+    border: none;
+}
+
+.btn:hover {
+    color: rgb(251, 80, 80);
+    background-color: white;
+    border: rgb(251, 80, 80) solid 1px;
+}
 
 
 /* --- About me ---*/
@@ -67,9 +94,6 @@ body {
 /* --- My work ---*/
 
 
-
-#workAside {}
-
 #workBlocks {
     gap: 10px;
     width: 100%;
@@ -77,20 +101,20 @@ body {
     justify-content: space-evenly;
 }
 
-#cardTitle {
-    background-color: rgba(255, 148, 81, 0.55);
-    color: white;
-}
-
-
 
 /* --- Contact me ---*/
 
-#contact a:hover {
-    color: #ff7a7a;
+#contact a {
+    color: rgb(251, 80, 80);
 }
 
-#contactEG1 li {
+#contact a:hover {
+    color: black;
+    text-decoration: none;
+}
+
+
+#contact li {
     list-style: none;
     padding-bottom: 5px;
 }
@@ -101,7 +125,7 @@ footer {
     margin-top: 50px;
     text-align: center;
     background-color: black;
-    color: rgba(255, 148, 81);
+    color: rgb(251, 80, 80);
     height: 100px;
 }
 
@@ -119,7 +143,7 @@ footer p {
 
 @media only screen and (max-width: 425px) {
     .aside {
-        border-bottom: rgb(255, 140, 198) solid 2px;
+        border-bottom: rgb(251, 80, 80) solid 2px;
         border-right: none;
         margin-bottom: 15px;
         padding-bottom: 10px;
