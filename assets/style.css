@@ -9,6 +9,8 @@ body {
     width: 100%;
     height: 100%;
     font-family: 'Hind-Regular', 'Helvetica', 'Arial', 'sans-serif';
+    margin: 0px;
+    padding: 0px;
 }
 
 /* --- Nav bar --- */
@@ -16,21 +18,22 @@ body {
 
 /* --- Jumbotron / hero --- */
 
-.jumbotron {
-    text-align: center;
-    background-image: ;
-}
+.jumbotron {}
 
 /* --- Grid section ---*/
 
-
-.mainContainer {
+#mainWrapper {
     width: 80%;
     margin: auto;
     max-width: 1200px;
 }
 
-/* .mainContainer * {
+.sectionContainer {
+    margin-bottom: 20px;
+}
+
+
+/* #mainWrapper * {
     border: red solid 1px;
 } */
 
@@ -38,7 +41,10 @@ body {
     border-right: rgba(255, 148, 81) solid 2px;
     text-align: left;
     padding-right: 10px;
+    width: 100px;
 }
+
+
 
 /* --- About me ---*/
 
@@ -46,9 +52,16 @@ body {
 
 /* --- My work ---*/
 
+
+
 #workAside {}
 
-#workBlocks {}
+#workBlocks {
+    gap: 10px;
+    width: 100%;
+    margin: auto;
+    justify-content: space-evenly;
+}
 
 #cardTitle {
     background-color: rgba(255, 148, 81, 0.55);
@@ -56,9 +69,17 @@ body {
 }
 
 
+
 /* --- Contact me ---*/
 
+#contact a:hover {
+    color: #ff7a7a;
+}
 
+#contactEG1 li {
+    list-style: none;
+    padding-bottom: 5px;
+}
 
 /* -- Footer --*/
 
@@ -75,4 +96,27 @@ footer p {
     padding: 0px;
     margin: 0px;
     top: 30%;
+}
+
+
+/* -- Media queries -- */ 
+
+/* -- Mobile -- */ 
+
+@media only screen and (max-width: 425px) {
+    .aside {
+        border-bottom: rgba(255, 148, 81) solid 2px;
+        border-right: none;
+        margin-bottom: 15px;
+        padding-bottom: 10px;
+        
+    }
+
+}
+
+/* -- Tablet --  */
+
+@media only screen and (max-width: 768px) {
+
+
 }
