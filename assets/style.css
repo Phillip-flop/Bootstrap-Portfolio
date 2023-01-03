@@ -13,12 +13,26 @@ body {
     padding: 0px;
 }
 
+
 /* --- Nav bar --- */
 
+#navIcon {}
 
 /* --- Jumbotron / hero --- */
 
-.jumbotron {}
+.jumbotron {
+    background-image: url(./images/hero-image.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.jumbotron h1 {
+    font-size: 2rem;
+    font-weight: 500;
+}
+
 
 /* --- Grid section ---*/
 
@@ -38,7 +52,7 @@ body {
 } */
 
 .aside {
-    border-right: rgba(255, 148, 81) solid 2px;
+    border-right: rgb(255, 140, 198) solid 2px;
     text-align: left;
     padding-right: 10px;
     width: 100px;
@@ -99,24 +113,21 @@ footer p {
 }
 
 
-/* -- Media queries -- */ 
+/* -- Media queries -- */
 
-/* -- Mobile -- */ 
+/* -- Mobile -- */
 
 @media only screen and (max-width: 425px) {
     .aside {
-        border-bottom: rgba(255, 148, 81) solid 2px;
+        border-bottom: rgb(255, 140, 198) solid 2px;
         border-right: none;
         margin-bottom: 15px;
         padding-bottom: 10px;
-        
+
     }
 
 }
 
 /* -- Tablet --  */
 
-@media only screen and (max-width: 768px) {
-
-
-}
+@media only screen and (max-width: 768px) {}
