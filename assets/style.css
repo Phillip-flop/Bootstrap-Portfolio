@@ -38,6 +38,10 @@ body {
     height: 50px;
 }
 
+.navbar-text img:hover {
+    height: 60px;
+}
+
 
 /* --- Jumbotron / hero --- */
 
@@ -80,6 +84,7 @@ body {
     color: rgb(251, 80, 80);
     background-color: white;
     border: rgb(251, 80, 80) solid 1px;
+    box-shadow: 5px 5px;
 }
 
 #my-work,
