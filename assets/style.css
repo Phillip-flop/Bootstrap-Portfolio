@@ -82,6 +82,13 @@ body {
     border: rgb(251, 80, 80) solid 1px;
 }
 
+#my-work,
+#about-me,
+#skills,
+#contact-me {
+    font-size: 1.5rem;
+
+}
 
 /* --- About me ---*/
 
