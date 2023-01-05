@@ -17,3 +17,6 @@ I have kept media queries to a minimum, only using one in order to change the bo
     <li>About me / Contact section</li>
     <li>Footer</li>
 </ul>
+
+## Live link 
+https://phillip-flop.github.io/Bootstrap-Portfolio/
