@@ -19,4 +19,4 @@ I have kept media queries to a minimum, only using one in order to change the bo
 </ul>
 
 ## Live link 
-https://phillip-flop.github.io/Bootstrap-Portfolio/
+https://lewis-ingleton.github.io/Bootstrap-Portfolio/
